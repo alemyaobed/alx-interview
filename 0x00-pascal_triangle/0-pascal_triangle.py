@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 '''
 Description: This file contains the implementation of
 the pascal_triangle function that returns a list of lists
