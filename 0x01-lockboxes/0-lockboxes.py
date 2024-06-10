@@ -21,11 +21,11 @@ def canUnlockAll(boxes: List[list]) -> bool:
     '''A function that checks if all boxes can be unlocked'''
     if not boxes:
         return False
-    
+
     n = len(boxes)
     opened = set()
     keys = [0]
-    
+
     while keys:
         current_key = keys.pop()
         if current_key not in opened:
@@ -33,5 +33,5 @@ def canUnlockAll(boxes: List[list]) -> bool:
             for key in boxes[current_key]:
                 if key not in opened and key < n:
                     keys.append(key)
-    
-    return len(opened) == n        
+
+    return len(opened) == n
