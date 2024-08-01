@@ -3,6 +3,7 @@
 The Islang Perimeter Problem
 '''
 
+
 def island_perimeter(grid):
     """Returns the perimeter of the island described in grid."""
     perimeter = 0
@@ -27,4 +28,3 @@ def island_perimeter(grid):
                     perimeter += 1
 
     return perimeter
-
