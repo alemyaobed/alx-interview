@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' Prime Game '''
+""" Prime Game """
 
 def is_prime(n):
     """Check if a number is prime."""
@@ -43,4 +43,5 @@ def isWinner(x, nums):
     elif ben_wins > maria_wins:
         return "Ben"
     else:
+        # Return None if the winner cannot be determined
         return None
